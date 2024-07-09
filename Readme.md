@@ -5,7 +5,6 @@ This Python script fetches country information (name, capital, and flag) from th
 ## Features
 
 * Fetches country data from the [REST Countries API](https://restcountries.com).
-* Handles cases where capital data might be missing or in unexpected formats.
 * Exports the data neatly into an Excel file with columns for name, capital, and flag.
 
 ## Usage
@@ -13,4 +12,22 @@ This Python script fetches country information (name, capital, and flag) from th
 1. **Clone or download the repository:**
 
    ```bash
-   git clone <repository_url>
+    git clone https://github.com/Dh-Kh/box_data1.git
+
+    python3 -m venv venv
+
+    source venv/bin/activate (or . venv/bin/activate)
+
+    pip install -r requirements.txt
+
+    python3 main.py
+   ```
+
+## Project Structure
+    ```bash
+    .
+    ├── __init__.py
+    ├── main.py
+    ├── Readme.md
+    └── requirements.txt
+    ```
