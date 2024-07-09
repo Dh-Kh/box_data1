@@ -24,10 +24,10 @@ This Python script fetches country information (name, capital, and flag) from th
    ```
 
 ## Project Structure
-    ```bash
+   ```bash
     .
     ├── __init__.py
     ├── main.py
     ├── Readme.md
     └── requirements.txt
-    ```
+   ```
